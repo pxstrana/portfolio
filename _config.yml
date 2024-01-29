@@ -15,7 +15,7 @@ permalink: pretty
 fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
 
-paginate: 5
+paginate: 8
 paginate_path: "/blog/page:num"
 
 # Disqus Comments
@@ -66,8 +66,7 @@ defaults:
     values:
       author: "Luis Pastrana"
       layout: post
-      image: https://via.placeholder.com/1200x800
-      show_sidebar: true
+      show_sidebar: false
 
 markdown: kramdown
 highlighter: rouge

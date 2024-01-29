@@ -4,16 +4,21 @@ layout: default
 
 {{ content }}
 
-<div class="columns is-multiline">
-    <div class="column is-12">
+<div class="rows ">
+    <div class="row block">
         {% include pagination.html %}
     </div>
-    {% for post in paginator.posts %}
-    <div class="column is-3">
-        {% include post-card.html %}
+    
+    <div class="columns is-multiline is-flex is-align-items-stretch">
+        {% for post in paginator.posts %}
+        <div class="column is-4 is-flex my-3">
+            {% include post-card.html %}
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
-    <div class="column is-12">
+    
+   
+    <div class="row">
         {% include pagination.html %}
     </div>
 </div>

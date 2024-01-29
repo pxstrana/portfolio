@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
-
+<div class="tags">
+    {% for tag in page.tags %}
+      {% include tag.html tag=tag %}
+    {% endfor %}
+</div>
 <div class="content">
 
     <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
@@ -13,11 +17,7 @@ layout: default
     {{ content }}
 </div>
 
-<div class="tags">
-    {% for tag in page.tags %}
-      {% include tag.html tag=tag %}
-    {% endfor %}
-</div>
+
 
 {% unless site.hide_share_buttons %}
 {% include share-buttons.html %}
