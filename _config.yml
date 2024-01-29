@@ -1,18 +1,18 @@
 # Site Settings
 lang: en
-title: Bulma Clean Theme
-tagline: Bulma Clean Theme
-email: your-email@domain.com
+title: Luis Pastrana
+tagline: Luis Pastrana's blog
+email: pastrana.garcia@outlook.com
 description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/bulma-clean-theme"
-url: "https://www.csrhymes.com"
+  Luis Pastrana's blog
+baseurl: ""
+url: ""
 permalink: pretty
 #favicon: /path/to/favicon.png
-gh_sponsor: chrisrhymes
+#gh_sponsor: 
 #hide_share_buttons: true
 #theme_color: '#eeeeee'
-#fixed_navbar: top
+fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
 
 paginate: 5
@@ -23,7 +23,7 @@ disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   # shortname: my_disqus_shortname
-  shortname: csrhymes
+  shortname: 
 
 
 plugins:
@@ -58,13 +58,13 @@ defaults:
       path: ""
       type: "pages"
     values:
-      show_sidebar: true
+      show_sidebar: false
   -
     scope:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "Luis Pastrana"
       layout: post
       image: https://via.placeholder.com/1200x800
       show_sidebar: true
@@ -72,11 +72,4 @@ defaults:
 markdown: kramdown
 highlighter: rouge
 
-footer_menu: example_footer_menu
-
-collections:
-  products: 
-    output: true
-    layout: product
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
+footer_menu: footer_menu

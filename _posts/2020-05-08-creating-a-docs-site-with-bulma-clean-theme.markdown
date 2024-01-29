@@ -2,6 +2,7 @@
 layout: post
 title: Creating a docs site with Bulma Clean Theme
 description: How to create a docs site for your project with Bulma Clean Theme 
+summary: How to create a docs site for your project with Bulma Clean Theme 
 date: 2020-05-08 09:00:07
 hero_image: https://www.csrhymes.com/img/example-docs-page.jpg
 hero_height: is-large

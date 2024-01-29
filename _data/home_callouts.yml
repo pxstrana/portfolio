@@ -1,12 +1,15 @@
 style: is-light
 items:
-  - title: Multiple page layouts
-    subtitle: Including sidebar, menubar, tabs and callouts
-    icon: fa-copy
-  - title: Blog included
-    subtitle: Layouts for blog and post pages included
-    icon: fa-mail-bulk
+  - title:  Data Management
+    description: > 
+      Expertise in Data Management and Analytics
+    icon: fa-wrench 
+  - title: Data Mining
+    description: >
+      Data extraction, data exploration, use of Machine Learning methods.
+    icon: fa-search
   - title: Works with GitHub Pages
-    subtitle: Quick and easy to get started
+    description: >
+      Quick and easy to get started
     icon: fa-github
     icon_brand: true
