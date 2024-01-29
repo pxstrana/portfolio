@@ -8,6 +8,7 @@ description: >
 baseurl: ""
 url: ""
 permalink: pretty
+remote_theme: chrisrhymes/bulma-clean-theme
 #favicon: /path/to/favicon.png
 #gh_sponsor: 
 #hide_share_buttons: true
