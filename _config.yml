@@ -8,7 +8,7 @@ description: >
 baseurl: "/portfolio"
 url: "https://pxstrana.github.io"
 permalink: pretty
-remote_theme: chrisrhymes/bulma-clean-theme
+remote_theme: pxstrana/portfolio
 #favicon: /path/to/favicon.png
 #gh_sponsor: 
 #hide_share_buttons: true
