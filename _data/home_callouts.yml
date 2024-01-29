@@ -2,14 +2,16 @@ style: is-light
 items:
   - title:  Data Management
     description: > 
-      Expertise in Data Management and Analytics
-    icon: fa-wrench 
-  - title: Data Mining
+      Efficient data management and boring stuff automation
+    icon: fa-database
+
+  - title: Artificial Intelligence
     description: >
-      Data extraction, data exploration, use of Machine Learning methods.
-    icon: fa-search
-  - title: Works with GitHub Pages
+      Use of AI and innovation to boost results!
+    icon: fa-rocket
+
+  - title: Heuristic algorithms
     description: >
-      Quick and easy to get started
-    icon: fa-github
-    icon_brand: true
+      Transferring domain knowledge to algorithms to maximize performance
+    icon: fa-lightbulb
+

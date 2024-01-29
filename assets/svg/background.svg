@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <!-- Definición de gradiente animado -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color: #dcedf1 ; stop-opacity: 1" />
+      <stop offset="70%" style="stop-color: #dcedf1 ; stop-opacity: 1">
+        <animate attributeName="stop-color" values="#dcedf1; #97e7b9; #dcedf1" dur="8s" repeatCount="indefinite" />
+      </stop>
+                 
+    </linearGradient>
+  </defs>
+
+  <!-- Rectángulo que usa el gradiente animado -->
+  <rect width="100%" height="100%" fill="url(#gradient)" />
+</svg>
