@@ -5,8 +5,8 @@ tagline: Luis Pastrana's blog
 email: pastrana.garcia@outlook.com
 description: >
   Luis Pastrana's blog
-baseurl: "/portfolio"
-url: "https://pxstrana.github.io/"
+baseurl: ""
+url: "" # url: "https://pxstrana.github.io/"
 permalink: pretty
 remote_theme: pxstrana/portfolio
 #favicon: /path/to/favicon.png

@@ -12,4 +12,4 @@ tags: data tools
 # Data Guerrilla Toolkit
 
  The term "Data Guerrilla" embodies the spirit of making the most out of limited resources, using unconventional methods to turn data into practical insights.
-I
+
