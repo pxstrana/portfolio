@@ -24,7 +24,7 @@ Antes de adentrarnos en aspectos más técnicos, vamos a presentar una forma int
 
 En la imagen a continuación, vemos un perceptrón, que es la representación simplificada de una neurona.
 
-![Imagen de Perceptrón](/assets/img/Perceptron.jpeg)
+![Imagen de Perceptrón](/portfolio/assets/img/Perceptron.jpeg)
 
 * Los **Inputs** son los valores que recibimos de entrada, es decir, la información con la que vamos a predecir.
 * Los **Weigths** es la importancia que le da a cada **Input**.
